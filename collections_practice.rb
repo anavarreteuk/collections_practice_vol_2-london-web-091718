@@ -20,7 +20,9 @@ def begins_with_r(array)
   end
   flag
 end
-
+#def begins_with_r (arr)
+#arr.all? { |element| element.start_with?('r') }
+#end
 def contain_a(array)
   container = []
   array.each do |element|
@@ -47,7 +49,9 @@ def first_wa(array)
   end
   first_wa
 end
-
+#def first_wa (arr)
+#arr[arr.find_index { |e| e.match?('wa') }]
+#end
 def find_cool(array)
   container = []
   array.each do |element|
